@@ -1,0 +1,53 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  /* background-color: #eafffd; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.color {
+  color: #ffffff;
+}
+
+.active {
+  color: rgb(66, 66, 239);
+}
+
+.trendingMovies {
+  padding-top: 80px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  font-size: 30px;
+}
